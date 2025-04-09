@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify # type: ignore
-
+import os
 app = Flask(__name__)
 
 # In-memory "database" (list of products)
@@ -201,5 +201,6 @@ def delete_product(product_id):
     return jsonify({"error": "Product not found"}), 404
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8080)
+    port = int(os.getenv("PORT", 8080))  # Render PORT provide karta hai
+    app.run(host='0.0.0.0', port=port, debug=True)
     
