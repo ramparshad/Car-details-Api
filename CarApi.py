@@ -4,6 +4,7 @@ app = Flask(__name__)
 
 # In-memory "database" (list of products)
 products = [
+    
     {
         "id": 1,
         "company": "Mahindra" ,
