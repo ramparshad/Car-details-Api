@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify # type: ignore
+from flask import Flask, request, jsonify          # type: ignore
 import os
 app = Flask(__name__)
 
@@ -162,12 +162,13 @@ products = [
     },
 ]
 
-# GET - All products fetch karna
+# GET - To fecth all products 
 @app.route('/products', methods=['GET'])
 def get_products():
     return jsonify(products)
 
-# GET - Ek specific product fetch karna
+
+# GET - To fetch the specific product by id
 @app.route('/products/<int:product_id>', methods=['GET'])
 def get_product(product_id):
     for product in products:
@@ -175,14 +176,16 @@ def get_product(product_id):
             return jsonify(product)
     return jsonify({"error": "Product not found"}), 404
 
-# POST - Naya product add karna
+
+# POST - To add a new product
 @app.route('/products', methods=['POST'])
 def add_product():
     new_product = request.get_json()  # JSON data client se lega
     products.append(new_product)
     return jsonify(new_product), 201
 
-# PUT - Product update karna
+
+# PUT - To update an existing product
 @app.route('/products/<int:product_id>', methods=['PUT'])
 def update_product(product_id):
     updated_product = request.get_json()
@@ -192,7 +195,8 @@ def update_product(product_id):
             return jsonify(updated_product)
     return jsonify({"error": "Product not found"}), 404
 
-# DELETE - Product delete karna
+
+# DELETE - To delete a product by id
 @app.route('/products/<int:product_id>', methods=['DELETE'])
 def delete_product(product_id):
     for i, product in enumerate(products):
@@ -201,7 +205,8 @@ def delete_product(product_id):
             return '', 204
     return jsonify({"error": "Product not found"}), 404
 
+
 if __name__ == '__main__':
-    port = int(os.getenv("PORT", 8080))  # Render PORT provide karta hai
+    port = int(os.getenv("PORT", 8080))                              # For providing Render PORT 
     app.run(host='0.0.0.0', port=port, debug=True)
     
