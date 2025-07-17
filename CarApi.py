@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify          # type: ignore
 import os
 app = Flask(__name__)
 
-# In-memory "database" (list  )
+# In-memory "database" (list of )
 products = [
     
     {
