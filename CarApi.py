@@ -180,7 +180,7 @@ products = [
         "GroundClearance": "226mm",
         "Length": "4285mm",
         "Width": "1855mm",
-        "Height": "2844mm",
+        "Height": "3244mm",
         "Wheelbase": "2450mm",
         "BootSpace": "280L",
         "FuelTankCapacity": "57L",
