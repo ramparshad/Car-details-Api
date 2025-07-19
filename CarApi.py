@@ -167,7 +167,7 @@ products = [
         "Model": "G4",
         "Fuel" : "Deisel",
         "Engiene": "2.2L",
-        "Differential": "4*2" ,
+        "Differential": "4*4" ,
         "Power":"140bhp",
         "Torque": "300Nm",
         "Seating": "7",
