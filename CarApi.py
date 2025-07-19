@@ -163,7 +163,7 @@ products = [
     {
         "id": 6,
         "company": "Mahindra" ,
-        "name": "Scorpio",
+        "name": "Alturas G4",
         "Model": "S11",
         "Fuel" : "Deisel",
         "Engiene": "2.2L",
