@@ -161,7 +161,7 @@ products = [
         "image": "https://th.bing.com/th/id/OIP.w3TAcnUaJdaSqUQ7LDhZlAHaG3?rs=1&pid=ImgDetMain"
     },
     {
-        "id": 3,
+        "id": 6,
         "company": "Mahindra" ,
         "name": "Scorpio",
         "Model": "S11",
