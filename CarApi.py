@@ -187,7 +187,7 @@ products = [
         "Airbags": "8",
         "ABS": "No",
         "ParkingSensors": "Yes",
-        "Sunroof": "No",
+        "Sunroof": "Yes",
         "price": 2000000,
         "image": "https://content.carlelo.com/uploads/model/mahindra-scorpio-classic-1.webp"
     },
