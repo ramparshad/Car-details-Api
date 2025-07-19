@@ -184,7 +184,7 @@ products = [
         "Wheelbase": "2450mm",
         "BootSpace": "280L",
         "FuelTankCapacity": "75L",
-        "Airbags": "4",
+        "Airbags": "8",
         "ABS": "No",
         "ParkingSensors": "Yes",
         "Sunroof": "No",
