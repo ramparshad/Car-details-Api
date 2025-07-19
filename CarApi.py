@@ -176,7 +176,7 @@ products = [
         "Acceleration": "0-100 in 8s",
         "Brakes": "Disc",
         "Suspension": "Independent",
-        "Tyres": "18 inch",
+        "Tyres": "21 inch",
         "GroundClearance": "226mm",
         "Length": "4285mm",
         "Width": "1855mm",
