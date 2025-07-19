@@ -177,7 +177,7 @@ products = [
         "Brakes": "Disc",
         "Suspension": "Independent",
         "Tyres": "21 inch",
-        "GroundClearance": "226mm",
+        "GroundClearance": "326mm",
         "Length": "4285mm",
         "Width": "1855mm",
         "Height": "3244mm",
