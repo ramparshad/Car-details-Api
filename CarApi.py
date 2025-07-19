@@ -183,7 +183,7 @@ products = [
         "Height": "3244mm",
         "Wheelbase": "2450mm",
         "BootSpace": "280L",
-        "FuelTankCapacity": "57L",
+        "FuelTankCapacity": "75L",
         "Airbags": "4",
         "ABS": "No",
         "ParkingSensors": "Yes",
