@@ -160,6 +160,37 @@ products = [
         "price": 4500000,
         "image": "https://th.bing.com/th/id/OIP.w3TAcnUaJdaSqUQ7LDhZlAHaG3?rs=1&pid=ImgDetMain"
     },
+    {
+        "id": 3,
+        "company": "Mahindra" ,
+        "name": "Scorpio",
+        "Model": "S11",
+        "Fuel" : "Deisel",
+        "Engiene": "2.2L",
+        "Differential": "4*2" ,
+        "Power":"140bhp",
+        "Torque": "300Nm",
+        "Seating": "7",
+        "Mileage": "15kmpl",
+        "TopSpeed": "150kmph",
+        "Acceleration": "0-100 in 10s",
+        "Brakes": "Disc",
+        "Suspension": "Independent",
+        "Tyres": "18 inch",
+        "GroundClearance": "226mm",
+        "Length": "4285mm",
+        "Width": "1855mm",
+        "Height": "2844mm",
+        "Wheelbase": "2450mm",
+        "BootSpace": "280L",
+        "FuelTankCapacity": "57L",
+        "Airbags": "4",
+        "ABS": "No",
+        "ParkingSensors": "Yes",
+        "Sunroof": "No",
+        "price": 2000000,
+        "image": "https://content.carlelo.com/uploads/model/mahindra-scorpio-classic-1.webp"
+    },
 ]
 
 # GET - To fecth all products 
